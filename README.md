@@ -20,6 +20,7 @@ id
 uname -a
 cat /etc/os-release
 uptime
+cat /proc/version
 ```
 
 ---
@@ -125,6 +126,7 @@ ip r
 ss -tulnp
 cat /etc/resolv.conf
 arp -a
+netstat -tulnp
 ```
 
 ---
